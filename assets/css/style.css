@@ -15,7 +15,6 @@
 }
 
 a:link {
-    color: black;
     text-decoration: none;
 }
 
@@ -23,18 +22,14 @@ header a:hover, footer a:hover {
     font-weight: bold;
 }
 
-main a:hover {
-    background-color: lightgrey;
-}
-
 ul {
     list-style-type: none;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    line-height: 1.4em;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14pt;
+    line-height: 1.5;
     width: 640px;
     margin: auto;
 }
@@ -45,6 +40,11 @@ header {
     padding: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    align-items: center;
 }
 
 .motto {
@@ -122,10 +122,6 @@ footer {
         flex-direction: column;
     }
 
-    .info {
-        padding-top: 20px;
-    }
-
     .preview {
         flex-direction: column;
     }
@@ -142,5 +138,39 @@ footer {
     .social {
         padding-top: 20px;
         text-align: center;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background-color: #303030;
+        color: #eee;
+    }
+
+    a, p, h1, h2, h3, h4, h5, h6 {
+        color: #eee;
+        text-decoration: none;
+    }
+
+    main a:hover {
+        background-color: #282828;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+
+    a {  
+        color: black;
+    }
+
+    a:hover {
+      color: lightgrey;
+      background-color: grey;
+      text-decoration: none;
+    }
+
+    main a:hover {
+        background-color: lightgrey;
     }
 }
