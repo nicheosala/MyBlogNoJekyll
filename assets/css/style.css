@@ -1,0 +1,140 @@
+/*** GLOBAL ***/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.info > ul > li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.info > ul > li:last-of-type {
+    margin-right: 0;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover, footer a:hover {
+    font-weight: bold;
+}
+
+main a:hover {
+    background-color: lightgrey;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.4em;
+    width: 640px;
+    margin: auto;
+}
+
+/*** Header ***/
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.motto {
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 14px;
+    border-top: 1px solid black;
+}
+
+/*** Main ***/
+
+main {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.preview {
+    padding: 20px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.preview .title, .preview .summary {
+    padding-bottom: 10px;
+}
+
+.preview .date {
+    text-align: right;
+    font-size: 14px;
+}
+
+/*** Footer ***/
+
+footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.donazioni {
+    width: 50%;
+    height: 100%;
+}
+
+.social {
+    width: 50%;
+    height: 100%;
+    text-align: right;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 630px) {
+
+    body {
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+    header {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .info {
+        padding-top: 20px;
+    }
+
+    .preview {
+        width: 320px;
+        flex-direction: column;
+    }
+
+    footer {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .donazioni {
+        text-align: center;
+    }
+    
+    .social {
+        padding-top: 20px;
+        text-align: center;
+    }
+}
