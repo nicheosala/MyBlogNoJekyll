@@ -57,7 +57,7 @@ header {
 /*** Main ***/
 
 main {
-    padding: 15px;
+    padding: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -65,14 +65,21 @@ main {
     border-bottom: 1px solid black;
 }
 
-.preview {
+.content {
     padding: 20px;
-    width: 600px;
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    margin: 5px;
 }
+
+.preview {
+    margin-bottom: 20px;
+}
+
+.preview:last-of-type {
+    margin-bottom: 0px;
+}
+
 
 .preview .title, .preview .summary {
     padding-bottom: 10px;
@@ -120,7 +127,6 @@ footer {
     }
 
     .preview {
-        width: 320px;
         flex-direction: column;
     }
 
