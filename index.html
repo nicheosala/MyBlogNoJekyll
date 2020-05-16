@@ -1,67 +1,38 @@
 <!DOCTYPE html>
 
 <html lang="it">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
-        <title>Nicolò Sala</title>
-        <link rel='stylesheet' href='assets/css/style.css'/>
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Nicolò Sala</title>
+    <link href='assets/css/style.css' rel='stylesheet'/>
 
-        <!-- Avoid browser to look for favicon.ico -->
-        <link rel="icon" href="data:,">
-    </head>
-    <body>
-        <header>
-            <div class="logo"><a href="index.html"><h1>Nicolò Sala</h1></a></div>
-            <nav class="info">
-                <ul>
-                    <li><a href='#'>Chi sono</a></li>
-                    <li><a href='#'>Cerca</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <section class="motto">
-            <p>Minimale è funzionale.</p>
-        </section>
-
-        <main>
-            <ul>
-                <li>
-                    <a href="#" class="preview">
-                        <h2 class="title">Migliorare Windows 10</h2>
-                        <p class="summary">
-                            Windows è pieno di funzionalità obsolete, inutili, alcune nocive. Rendiamolo migliore.
-                        </p>
-                        <p class="date">1 maggio 2020</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="preview">
-                        <h2 class="title">Article title</h2>
-                        <p class="summary">Article text</p>
-                        <p class="date">Article date</p>
-                    </a>
-                </li>
-            </ul>
-        </main>
-        <footer>
-            <nav class="donazioni">
-                <p><strong>Donazioni</strong></p>
-                <ul>
-                    <li><a href="https://paypal.me/naicols" target="_blank">PayPal</a></li>
-                    <li><a href="#" target="_blank">Bitcoin</a></li>
-                </ul>
-            </nav>
-            <nav class="social">
-                <p><strong>Contatti</strong></p>
-                <ul>
-                    <li><a href="https://github.com/nicheosala" target="_blank">Github</a></li>
-                    <li><a href="https://instagram.com/nicheosala" target="_blank">Instagram</a></li>
-                    <li><a href="https://t.me/nicheosala" target="_blank">Telegram</a></li> 
-                    <li><a href="https://twitter.com/nicheosala" target="_blank">Twitter</a></li>
-                </ul>
-            </nav>
-        </footer>
-    </body>
+    <!-- Avoid browser to look for favicon.ico -->
+    <link href="data:," rel="icon">
+</head>
+<body>
+<header id="header-placeholder"></header>
+<p class="motto">Minimale è funzionale.</p>
+<main>
+    <ul>
+        <li><a class="preview" href="#">
+            <h2 class="title">Migliorare Windows 10</h2>
+            <p class="summary">Windows è pieno di funzionalità obsolete, inutili, alcune nocive. Rendiamolo
+                migliore.</p>
+            <p class="date">1 maggio 2020</p>
+        </a></li>
+        <li><a class="preview" href="#">
+            <h2 class="title">Article title</h2>
+            <p class="summary">Article text</p>
+            <p class="date">Article date</p>
+        </a></li>
+    </ul>
+</main>
+<footer></footer>
+</body>
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<script>
+    $("footer").load("pages/footer.html");
+    $("header").load("pages/header.html");
+</script>
 </html>
