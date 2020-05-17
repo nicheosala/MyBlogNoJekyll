@@ -1,4 +1,4 @@
-document.getElementById("footer-placeholder").innerHTML = `
+document.querySelector("footer").innerHTML = `
 <nav class="donazioni">
     <h4><strong>Donazioni</strong></h4>
     <ul>

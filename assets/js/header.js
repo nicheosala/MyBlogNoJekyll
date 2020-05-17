@@ -1,4 +1,4 @@
-document.getElementById("header-placeholder").innerHTML = `
+document.querySelector("header").innerHTML = `
 <h1 class="logo"><a href="/index.html">Nicolò Sala</a></h1>
 <nav class="info">
     <ul>
