@@ -1,14 +1,20 @@
 [
     {
-      "title": "Ottimizzare Windows 10",
-      "summary": "Windows è pieno di funzionalità obsolete, inutili, alcune nocive. Rendiamolo migliore.",
-      "date": "1 maggio 2020",
-      "url": "/pages/00001.html"
+        "title": "Ottimizzare Windows 10",
+        "summary": "Windows è pieno di funzionalità obsolete, inutili, alcune nocive. Rendiamolo migliore.",
+        "date": "1 maggio 2020",
+        "url": "/nicheosala.github.io/pages/0001.html"
     },
     {
-      "title": "Article title",
-      "summary": "Article summary",
-      "date": "Article date",
-      "url": "/pages/#"
+        "title": "Creare un full node Bitcoin",
+        "summary": "Per essere un utente attivo della rete Bitcoin, dopo avr creato il tuo wallet, devi possedere un full node. Qui spiego nel dettaglio come fare.",
+        "date": "17 maggio 2020",
+        "url": "/nicheosala.github.io/pages/0002.html"
+    },
+    {
+        "title": "Article title",
+        "summary": "Article summary",
+        "date": "Article date",
+        "url": "/nicheosala.github.io/pages/0003.html"
     }
 ]
