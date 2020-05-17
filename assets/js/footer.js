@@ -1,3 +1,4 @@
+document.getElementById("footer-placeholder").innerHTML = `
 <nav class="donazioni">
     <p><strong>Donazioni</strong></p>
     <ul>
@@ -14,3 +15,4 @@
         <li><a href="https://twitter.com/nicheosala" target="_blank" rel="noreferrer">Twitter</a></li>
     </ul>
 </nav>
+`
