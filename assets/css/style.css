@@ -32,21 +32,21 @@ header {
     justify-content: space-between;
 }
 
-.logo {
+header .logo {
     text-align: center; /* Useful for very very strict web pages */
 }
 
-.info {
+header .info {
     display: flex;
     align-items: center;
 }
 
-.info > ul > li {
+header .info > ul > li {
     display: inline;
     margin-right: 20px;
 }
 
-.info > ul > li:last-of-type {
+header .info > ul > li:last-of-type {
     margin-right: 0;
 }
 
@@ -69,33 +69,32 @@ main > ul > li {
 }
 
 main > ul > li:last-of-type {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
-.preview {
+main .preview {
     padding: 20px;
     display: flex;
     flex-direction: column;
 }
 
-.preview .title, .preview .summary {
+main .preview .title, main .preview .summary {
     padding-bottom: 10px;
 }
 
-.preview .date {
+main .preview .date {
     text-align: right;
     font-size: 0.9rem;
 }
 
 /*** Footer ***/
-
 footer {
     padding: 20px;
     display: flex;
     justify-content: space-between;
 }
 
-.social {
+footer .social {
     text-align: right;
 }
 
@@ -104,7 +103,7 @@ footer {
 
     body {
         width: 100%;
-        padding: 10px 0px;
+        padding: 10px 0;
     }
 
     header {
@@ -112,7 +111,7 @@ footer {
         flex-direction: column;
     }
 
-    .preview {
+    main .preview {
         flex-direction: column;
     }
 
@@ -121,11 +120,11 @@ footer {
         flex-direction: column;
     }
 
-    .donazioni {
+    footer .donazioni {
         text-align: center;
     }
     
-    .social {
+    footer .social {
         padding-top: 20px;
         text-align: center;
     }
@@ -135,11 +134,10 @@ footer {
 
     body {
         background-color: #303030;
-        color: #eee;
     }
 
-    a, p, h1, h2, h3, h4, h5, h6 {
-        color: #eee;
+    body, a, p, h1, h2, h3, h4, h5, h6 {
+        color: #eeeeee;
     }
 
     main a:hover {
@@ -151,11 +149,6 @@ footer {
 
     a {  
         color: black;
-    }
-
-    a:hover {
-      color: lightgrey;
-      background-color: grey;
     }
 
     main a:hover {
@@ -173,6 +166,6 @@ main {
     border-bottom: 1px solid black;
 }
 
-.preview {
+main .preview {
     border: 1px solid black;
 }
