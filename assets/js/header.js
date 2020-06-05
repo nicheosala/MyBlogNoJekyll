@@ -1,5 +1,5 @@
 document.querySelector("header").innerHTML = `
-<h1 class="logo"><a href="/index.html">Nicolò Sala</a></h1>
+<h1 class="logo"><a href="/">Nicolò Sala</a></h1>
 <nav class="info">
     <ul>
         <li><a href='#'>Chi sono</a></li>
