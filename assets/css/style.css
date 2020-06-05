@@ -144,7 +144,7 @@ footer li, footer p {
     }
 
     body, a, p, h1, h2, h3, h4, h5, h6 {
-        color: #eeeeee;
+        color: #eee;
     }
 
     main a:hover {
@@ -155,7 +155,7 @@ footer li, footer p {
 @media (prefers-color-scheme: light) {
 
     a {  
-        color: black;
+        color: #000;
     }
 
     main a:hover {
@@ -165,14 +165,37 @@ footer li, footer p {
 
 /*** Theme: common parts ***/
 .motto {
-    border-top: 1px solid black;
+    border-top: 1px solid #000;
 }
 
 main {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
 
 main .preview {
-    border: 1px solid black;
+    border: 1px solid #000;
 }
+
+@media print {
+
+    header .info, footer, .motto {
+        display: none; 
+    }
+
+    header {
+        justify-content: center;   
+    }
+
+    body, a, p, h1, h2, h3, h4, h5, h6 {
+        background: none;
+        color: #000;
+        font-size: 1em;
+        font-family: sans-serif; 
+    }
+
+    main, main .preview {
+        border: 0;
+        padding: 5px;
+    }
+  }
