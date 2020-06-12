@@ -1,3 +1,15 @@
+/* Header */
+document.querySelector("header").innerHTML = `
+<h1 class="logo"><a href="/">Nicolò Sala</a></h1>
+<nav class="info">
+    <ul>
+        <li><a href='#'>Chi sono</a></li>
+        <li><a href='#'>Perché?</a></li>
+    </ul>
+</nav>
+`
+
+/* Footer */
 document.querySelector("footer").innerHTML = `
 <nav class="donazioni">
     <p><strong>Donazioni</strong></p>

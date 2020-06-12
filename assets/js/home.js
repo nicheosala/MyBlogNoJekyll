@@ -2,7 +2,7 @@ let previews = document
     .querySelector("main")
     .appendChild(document.createElement("ul"));
 
-fetch("assets/json/previews.json")
+fetch("/assets/json/previews.json")
     .then(response => response.json())
     .then(json => json.forEach(
         item => toHTML(item)
